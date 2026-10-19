@@ -2,16 +2,16 @@
 
 ### Note: I (codex) made this for myself for my own tv spec. You are free to use it as a reference, but do not expect to provide support or merge PR's
 
-CustomTV 0.1.3: a lightweight native Android TV launcher with a tvOS-inspired monochrome interface, an animated neural background and remote-friendly navigation.
+CustomTV 0.1.4: a lightweight native Android TV launcher with a tvOS-inspired monochrome interface, an animated neural background and remote-friendly navigation.
 
 ![CustomTV Home with app shortcuts, HDMI inputs and Continue Watching](docs/images/customtv-home.png)
 
-*Captured on the TV at 1920×1080. The video background appears black in this ADB screenshot.*
+*Captured directly on the TV at 1920×1080, including the neural video background.*
 
 - Icon-only shortcuts for Nuvio, SmartTube, Spotify, Steam Link and Play Store. Newly installed user TV apps appear automatically.
 - Fixed Apps, HDMI Inputs and Continue Watching rows, plus a clock. No vertical Home scrolling.
 - Minimal sidebar for Inputs, Wi-Fi, Bluetooth, Picture, Sound, Appearance and full TV settings.
-- Hardware-decoded 1080p30 wallpaper. The decoder releases when Home pauses; the idle Home view keeps the clock and video.
+- Hardware-decoded 1080p30 wallpaper. A matching still covers decoder startup when returning Home. The decoder releases when Home pauses; the idle Home view keeps the clock and video.
 - An optional accessibility service handles Home, gear and the observed Xiaomi remote shortcuts. It cannot read screen contents or perform gestures.
 
 The launcher does not require Projectivy or root. It preserves the stock launcher, native settings and hardware services. Tested on Xiaomi MiTV-MZTU0 (`river`), Android 14; native settings components and branded remote codes are firmware-specific.

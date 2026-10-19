@@ -34,3 +34,11 @@ These measurements predate repository cleanup; native application code and activ
 ## Remaining limits
 
 Launch/routing checks do not prove app authentication, sustained playback, Cast playback, audio quality, HDMI signal quality, HDR/ALLM/CEC or long gaming sessions. Those require the actual TV and connected devices. Native settings components and remote codes may differ on another firmware. Residual banding and icon-edge quality remain visual judgments; native 4K UI rendering and perfect panel output are not claimed.
+
+## 0.1.4 wallpaper return (2026-10-20)
+
+A density-independent first-frame still now covers decoder preparation, and playback starts at the beginning without a resume seek. The original Main10 video and picture controls are unchanged. The decoder still releases on pause; the poster adds one 1080p image allocation (approximately 8 MiB uncompressed RGBA).
+
+The signed APK built and passed signature verification, then updated the existing installation while retaining app data. Three Settings-to-Home checks confirmed decoder release outside Home, poster dismissal on the first-frame notification, and hardware HEVC playback after return. Measured preparation-to-first-frame times were **442, 295 and 326 ms**; these are not total remote-button-to-screen latencies or a controlled before/after comparison. A Nuvio-to-Home check also confirmed release and resumed playback, with a 413 ms first-frame notification. Each short playback sample reported zero dropped frames. A direct 1080p screenshot now includes the video background and is used in the README.
+
+The initial automated attempt was invalid because the system screensaver was foreground; the results above were collected after dismissing it. Physical confirmation of a seamless still-to-video transition remains necessary.

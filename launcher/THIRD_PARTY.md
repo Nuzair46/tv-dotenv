@@ -12,6 +12,8 @@ The GLSL source in `assets/wallpaper/` was extracted from the owner's [nuzair.de
 
 The active video is `app/src/main/res/raw/neural.mp4`: 1920×1080, 30 fps, 720 frames, HEVC Main10, SDR BT.709 limited range, no audio. SHA-256: `8076dc4b05856ae138b4b1b201ec5aeca83d1641c9e0c47838207c70a2cc9e03`. It is rendered locally and embedded in the APK; the TV does not load a website.
 
+The startup still, `app/src/main/res/drawable-nodpi/neural_poster.png`, is extracted from the first frame of that same video with BT.709-to-sRGB conversion; see [asset instructions](../docs/assets.md).
+
 ## Reference and platform
 
 [Gathin23/tv-vibehack](https://github.com/Gathin23/tv-vibehack/tree/d7a2efcd84bf628ae131072f70620a03ad069383), commit `d7a2efcd84bf628ae131072f70620a03ad069383`, was studied for native launcher/Home-routing approaches. Its MIT notice is retained as `REFERENCE-LICENSE.txt`. No upstream APK or Outfit font is bundled. CustomTV's layout, data reader, video lifecycle and narrow HOME override were implemented locally.
