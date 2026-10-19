@@ -4,6 +4,10 @@
 
 CustomTV 0.1.3: a lightweight native Android TV launcher with a tvOS-inspired monochrome interface, an animated neural background and remote-friendly navigation.
 
+![CustomTV Home with app shortcuts, HDMI inputs and Continue Watching](docs/images/customtv-home.png)
+
+*Captured on the TV at 1920×1080. The video background appears black in this ADB screenshot.*
+
 - Icon-only shortcuts for Nuvio, SmartTube, Spotify, Steam Link and Play Store. Newly installed user TV apps appear automatically.
 - Fixed Apps, HDMI Inputs and Continue Watching rows, plus a clock. No vertical Home scrolling.
 - Minimal sidebar for Inputs, Wi-Fi, Bluetooth, Picture, Sound, Appearance and full TV settings.
@@ -78,4 +82,4 @@ The five app marks are Android vectors generated from the original Arcticons SVG
 - [Validation and measured performance](docs/validation.md)
 - [Audited debloat scope](docs/debloat.md)
 
-The repository contains source, active assets and build/deploy tools. Downloaded APKs, toolchains, signing keys, device identifiers, screenshots, viewing history, logs, backups and obsolete experiments are excluded. The original operational archive remains local.
+The repository contains source, active assets, build/deploy tools and the Home screenshot shown above. Other device captures, downloaded APKs, toolchains, signing keys, device identifiers, viewing-history exports, logs, backups and obsolete experiments are excluded. The original operational archive remains local.
