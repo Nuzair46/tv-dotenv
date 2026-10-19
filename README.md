@@ -1,5 +1,7 @@
 # tv-dotenv
 
+### Note: I (codex) made this for myself for my own tv spec. You are free to use it as a reference, but do not expect to provide support or merge PR's
+
 CustomTV 0.1.3: a lightweight native Android TV launcher with a tvOS-inspired monochrome interface, an animated neural background and remote-friendly navigation.
 
 - Icon-only shortcuts for Nuvio, SmartTube, Spotify, Steam Link and Play Store. Newly installed user TV apps appear automatically.
