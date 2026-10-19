@@ -1,0 +1,15 @@
+<resources>
+    <style name="HomeTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">#080808</item>
+        <item name="android:colorAccent">#E7E9EC</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <string name="override_description">Maps Home to CustomTV, gear to its control panel, Netflix and Prime Video to Nuvio, YouTube to SmartTube, and Apps to Play Store. Can open native TV controls when selected. Branded shortcuts apply to the paired Xiaomi remote. It does not read screen contents, type or perform gestures. Turn this off to restore normal remote behavior.</string>
+</resources>

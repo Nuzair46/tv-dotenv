@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arcticons vector outline. See THIRD_PARTY.md. Stroke widened from 1 to 1.1 for TV. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#00000000" android:strokeColor="#FFF0F2F5" android:strokeWidth="1.1" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M6.643 38.47c0 4.393 4.217 6.685 9.46 3.64l21.672-12.593c2.23-1.296 3.582-3.059 3.582-5.517s-1.352-4.221-3.582-5.517L16.103 5.891c-5.243-3.046-9.46-.754-9.46 3.64z" />
+</vector>

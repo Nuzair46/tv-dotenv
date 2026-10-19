@@ -1,0 +1,43 @@
+# Machine/device configuration and recovery data
+.env
+.env.*
+!.env.example
+.local/
+.private-archive
+LOCAL_RECOVERY.md
+**/backups/
+**/evidence/
+**/downloads/
+**/toolchain
+**/reference/
+
+# Signing material and credentials
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+.signing-password
+*.properties.local
+
+# Generated artifacts and caches
+**/build/
+*.apk
+*.aab
+*.idsig
+*.dex
+*.class
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+*.log
+*.jsonl
+*.gray16le
+*.yuv
+*.tmp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

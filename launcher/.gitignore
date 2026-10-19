@@ -1,0 +1,5 @@
+build/
+toolchain
+*.jks
+*.keystore
+.signing-password

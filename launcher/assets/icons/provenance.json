@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/Arcticons-Team/Arcticons",
+  "commit": "917baa2b8b1c304e7a45de48d35e97b7a774c251",
+  "source_directory": "icons/white",
+  "license": "CC-BY-SA-4.0",
+  "adaptation": "Converted path/circle elements into Android vectors, white softened to F0F2F5 and 1-unit stroke to 1.1; shown at 108 design px. Same five outline marks.",
+  "sha256": {
+    "google_play_store.svg": "34fad4319f4392ddf6289fdc38298d92fd6d48748f2af3c611bb8bf996acf6a4",
+    "nuvio.svg": "518534bc5803c7f702e21bb5fde29abac17d167b77ef9fe1e24d0f310e2eb4b1",
+    "spotify.svg": "cf49124773d2308334a3b6eede787865af06b375b1be875946dcaaefa31ba1e7",
+    "steamlink.svg": "e897a3528f791d84882cd6d3d5823f8ece683d55a5e92b8d3bd48076ce44e846",
+    "youtube.svg": "1d332bd739fee497a681c6892bc9b4344fce643b814160fc7716fbc60fde0c1c"
+  }
+}
